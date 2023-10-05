@@ -1,0 +1,18 @@
+p{
+    color: red;
+}
+.mypara{
+    color: green;
+}
+#byui{
+    color: blue;
+}
+p.mypara{
+    color: blue;
+}
+div, img{
+    color: blue;
+}
+div img{
+    color:green;
+}
