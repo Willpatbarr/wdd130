@@ -1,0 +1,13 @@
+#hero-img {
+    min-width: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1em rgb(55, 55, 55) solid;
+    margin: 3em;
+}
+
+body {
+    background-color: rgb(104, 104, 104);
+}
