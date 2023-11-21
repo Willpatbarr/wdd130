@@ -144,10 +144,14 @@ footer {
     background-color: #c4c3c3;
     color: #427AA1;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin: 600px 0 0 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.index footer{
+    margin: 0 0 0 0;
 }
 
 .rules footer, .about footer{
