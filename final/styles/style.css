@@ -421,6 +421,10 @@ hr{
 
 }
 
+.form-main{
+    position: absolute;
+}
+
 
 @media screen and (max-width: 900px) {
     footer {
@@ -436,7 +440,7 @@ hr{
     .button{
         font-size: 14px;
     }
-    
+
     .about-block{
         margin: 1rem 0;
         display: grid;
