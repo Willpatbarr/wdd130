@@ -138,7 +138,6 @@ footer {
     background-color: #c4c3c3;
     color: #427AA1;
     padding: 25px 50px;
-    margin: 600px 0 0 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -146,10 +145,17 @@ footer {
 
 .index footer{
     margin: 0 0 0 0;
+    background-color: #e6e6e6;
 }
 
-.rules footer, .about footer{
+.about footer{
     background-color: #e6e6e6;
+    margin: 400px 0 0 0px;
+}
+
+.rules footer{
+    background-color: #e6e6e6;
+    margin: 600px 0 0 0px;
 }
 
 footer .social img {
@@ -249,9 +255,12 @@ hr{
 }
 
 .about .menu-block{
+    font-size: 1.25rem;
     background-color: white;
-    margin: -10rem 5rem 0 5rem;
+    margin: -20rem 5rem 0 5rem;
     position: absolute;
+    left: 0;
+    right: 0;
 }
 
 .menu-block div{
@@ -374,7 +383,8 @@ hr{
 }
 
 .about-block h1{
-    margin: auto auto 0 auto;
+    font-size: 3rem;
+    margin: auto auto 5rem auto;
     color: white;
 }
 
@@ -436,6 +446,7 @@ hr{
 }
 
 .cards-banner h1{
+    font-size: 3rem;
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: center;
