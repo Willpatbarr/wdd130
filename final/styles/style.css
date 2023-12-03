@@ -179,8 +179,8 @@ footer .social img {
 /* hero section */
 .hero-banner{
     display: grid;
-    grid-template-columns: 2fr, auto, 2fr;
-    grid-template-rows: 1;
+    grid-template-columns: 2fr auto 2fr;
+    grid-template-rows: 1fr;
     
 }
 
@@ -250,7 +250,7 @@ hr{
 
 .about .menu-block{
     background-color: white;
-    margin: -10rem 0 0 0;
+    margin: -10rem 5rem 0 5rem;
     position: absolute;
 }
 
@@ -374,7 +374,7 @@ hr{
 }
 
 .about-block h1{
-    margin: auto auto;
+    margin: auto auto 0 auto;
     color: white;
 }
 
@@ -385,7 +385,7 @@ hr{
     display: grid;
     box-shadow: 0 0 10px 5px #00000070;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3;
+    grid-template-rows: 1fr 1fr 1fr;
     padding: 1rem 2rem;
     position: absolute;
     margin: -4rem 0 0 0;
@@ -513,7 +513,7 @@ hr{
         width: 85%;
         display: grid;
         grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
         /* grid-template-rows: 3rem auto 3rem; */
         box-shadow: 5px 5px 10px #6f7364;
         font-size: 14px;
@@ -528,7 +528,7 @@ hr{
         font-size: 14px;
         display: grid;
         grid-template-rows: 1fr auto;
-        grid-template-columns: 1;
+        grid-template-columns: 1fr;
     
     }
     .menu-block p{
