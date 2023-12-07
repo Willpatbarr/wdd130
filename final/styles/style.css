@@ -135,7 +135,7 @@ nav a:hover {
 /* footer */
 
 footer {
-    background-color: #c4c3c3;
+    background-color: #e6e6e6;
     color: #427AA1;
     padding: 25px 50px;
     display: flex;
@@ -253,6 +253,7 @@ hr{
     box-shadow: rgba(0, 0, 0, 0.44) 0px 0px 10px 5px;
     background-color: white;
 }
+
 
 .about .menu-block{
     font-size: 1.25rem;
@@ -384,6 +385,10 @@ hr{
     grid-row: 2/3;
 }
 
+.menu-block .button{
+    grid-row: 3/4;
+}
+
 .about-block .about-title{
     z-index: 1;
 }
@@ -464,6 +469,16 @@ hr{
     justify-self: center;
     align-self: center;
     font-size: 3rem;
+}
+
+.info-section{
+    margin: 0 auto;
+    padding: 6rem;
+    text-align: center;
+}
+
+.index .menu-block p{
+    grid-column: 1/4;
 }
 
 @media screen and (max-width: 900px) {
