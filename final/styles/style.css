@@ -150,12 +150,12 @@ footer {
 
 .about footer{
     background-color: #e6e6e6;
-    margin: 400px 0 0 0px;
+    margin: 450px 0 0 0px;
 }
 
 .rules footer{
     background-color: #e6e6e6;
-    margin: 600px 0 0 0px;
+    margin: 950px 0 0 0px;
 }
 
 footer .social img {
@@ -263,6 +263,18 @@ hr{
     right: 0;
 }
 
+.rules .menu-block{
+    font-size: 1.25rem;
+    background-color: white;
+    margin: -4rem 5rem 0 5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding: 1rem 2rem;
+}
+
 .menu-block div{
     grid-column: 1/3;
     grid-row: 1/4;
@@ -277,7 +289,7 @@ hr{
 }
 
 
-.menu-block p{
+.about .menu-block p{
     text-align: left;
     text-decoration: none;
     padding: 2rem;
